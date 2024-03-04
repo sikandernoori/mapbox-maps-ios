@@ -116,7 +116,7 @@ public final class LocationManager {
 
         puckAnimator = ValueAnimator(
             ValueInterpolator(
-                duration: 1.1,
+                duration: 0,
                 input: onLocationChangeProxy.signal,
                 interpolate: locationInterpolator.interpolate(from:to:fraction:),
                 nowTimestamp: nowTimestamp),
